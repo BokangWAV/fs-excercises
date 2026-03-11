@@ -8,7 +8,7 @@ sequenceDiagram
 
     Browser->>Server: POST /new_note (note content in request body)
 
-    Note right of Server: Server receives the note data\nand creates a new note object
+    Note right of Server: Server receives the note data and creates a new note object
 
     Server-->>Browser: 302 Redirect to /notes
 
